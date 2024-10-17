@@ -23,7 +23,7 @@ Welcome! I am a first-year CS PhD student at [UC Santa Barbara](https://www.ucsb
 
 I obtained my bachelor’s degree from [Peking University](https://english.pku.edu.cn/), where I was advised by [Prof. Xiaojun Wan](https://wanxiaojun.github.io/). I also worked with [Prof. Tianxing He](https://cloudygoose.github.io/) at Tsinghua University and [Prof. Yulia Tsvetkov](https://homes.cs.washington.edu/~yuliats/) at University of Washington.
 
-I do research in the field of Natural Language Processing. Specially, I am interested in:
+I do research broadly in the field of Natural Language Processing. Specially, I am interested in:
 - Evaluation for LLMs
 - NLP Safety: machine-generated text detection and text watermarks.
 - Prompt Optimization and Compression 

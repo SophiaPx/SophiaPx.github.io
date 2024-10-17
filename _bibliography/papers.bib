@@ -12,6 +12,8 @@
   author={Gao, Mingqi and Hu, Xinyu and Ruan, Jie and Pu, Xiao and Wan, Xiaojun},
   journal={arXiv preprint arXiv:2402.01383},
   year={2024},
+  paper={https://arxiv.org/pdf/2402.01383},
+  abstract={Evaluating natural language generation (NLG) is a vital but challenging problem in artificial intelligence. Traditional evaluation metrics mainly capturing content (e.g. n-gram) overlap between system outputs and references are far from satisfactory, and large language models (LLMs) such as ChatGPT have demonstrated great potential in NLG evaluation in recent years. Various automatic evaluation methods based on LLMs have been proposed, including metrics derived from LLMs, prompting LLMs, and fine-tuning LLMs with labeled evaluation data. In this survey, we first give a taxonomy of LLM-based NLG evaluation methods, and discuss their pros and cons, respectively. We also discuss human-LLM collaboration for NLG evaluation. Lastly, we discuss several open problems in this area and point out future research directions.}
 }
 
 @article{todo,
@@ -20,6 +22,9 @@
   author={Pu, Xiao and He, Tianxing and Wan, Xiaojun},
   journal={Findings of EMNLP},
   year={2024},
+  paper={https://openreview.net/pdf?id=n3hzHBpiGq},
+  preview={},
+  abstract={Prompt compression condenses contexts while maintaining their informativeness for different usage scenarios. It not only shortens the inference time and reduces computational costs during the usage of large language models, but also lowers expenses when using closed-source models. In a preliminary study, we discover that when instructing language models to compress prompts, different compression styles (e.g., extractive or abstractive) impact performance of compressed prompts on downstream tasks. Building on this insight, we propose Style-Compress, a lightweight framework that adapts a smaller language model to compress prompts for a larger model on a new task without additional training. Our approach iteratively generates and selects effective compressed prompts as task-specific demonstrations through style variation and in-context learning, enabling smaller models to act as efficient compressors with task-specific examples. Style-Compress outperforms two baseline compression models in four tasks: original prompt reconstruction, text summarization, multi-hop QA, and CoT reasoning. In addition, with only 10 samples and 100 queries for adaptation, prompts compressed by Style-Compress achieve performance on par with or better than original prompts at a compression ratio of 0.25 or 0.5.},
   selected={true}
 }
 
@@ -29,6 +34,10 @@
   author={Wang, Yichen and Feng, Shangbin and Hou, Abe Bohan and Pu, Xiao and Shen, Chao and Liu, Xiaoming and Tsvetkov, Yulia and He, Tianxing},
   journal={ACL},
   year={2024},
+  preview={stumbling-blocks.png}
+  paper={https://aclanthology.org/2024.acl-long.160.pdf},
+  abstract={The widespread use of large language models (LLMs) is increasing the demand for methods that detect machine-generated text to prevent misuse. The goal of our study is to stress test the detectors' robustness to malicious attacks under realistic scenarios. We comprehensively study the robustness of popular machine-generated text detectors under attacks from diverse categories: editing, paraphrasing, prompting, and co-generating. Our attacks assume limited access to the generator LLMs, and we compare the performance of detectors on different attacks under different budget levels. Our experiments reveal that almost none of the existing detectors remain robust under all the attacks, and all detectors exhibit different loopholes. Averaging all detectors, the performance drops by 35% across all attacks. Further, we investigate the reasons behind these defects and propose initial out-of-the-box patches to improve robustness.},
+  poster={},
   selected={true}
 }
 
@@ -47,6 +56,10 @@
   author={Pu, Xiao and Gao, Mingqi and Wan, Xiaojun},
   journal={LREC-COLING (oral)},
   year={2024},
+  preview={extrinsic-eval.png},
+  paper={https://aclanthology.org/2024.lrec-main.821.pdf},
+  abstract={Research on automated text summarization typically uses human and automatic evaluation methods. While most recent studies focus on intrinsic evaluation, which assesses the general quality of summaries, e.g. coherence and informativeness, we concentrate on task-based extrinsic evaluation to determine the usefulness of summaries. We incorporate three downstream tasks, namely question answering, text classification, and text similarity assessment, and measure the usefulness of summaries for these tasks by several metrics. Our findings reveal that summaries are generally useful in tasks that require a comprehensive grasp of the text but are less useful in tasks requiring a more specific understanding of the text. We also analyze the usefulness and inherent properties of summaries from different models, and find that fine-tuned models consistently produce more useful summaries across all three tasks. In contrast, zero-shot models tend to lean towards text classification and similarity assessment, providing more general and less detailed summaries. Additionally, we assess the correlation between 14 intrinsic automatic metrics and human judgments. Intrinsic metrics perform well in evaluating summaries for question answering but are less effective in the other two tasks. This highlights the limitations of relying solely on intrinsic metrics for assessing summary performance and usefulness.},
+  slides={},
   selected={true}
 }
 
@@ -55,7 +68,10 @@
   title={On the Zero-Shot Generalization of Machine-Generated Text Detectors},
   author={Pu, Xiao and Zhang, Jingyu and Han, Xiaochuang and Tsvetkov, Yulia and He, Tianxing},
   journal={Findings of EMNLP, NeurIPS-ENLSP},
-  preview={},
+  paper={https://arxiv.org/pdf/2310.05165},
+  preview={zero-shot-detection.png},
+  poster={poster_generalization.pdf}
+  abstract={The rampant proliferation of large language models, fluent enough to generate text indistinguishable from human-written language, gives unprecedented importance to the detection of machine-generated text. This work is motivated by an important research question: How will the detectors of machine-generated text perform on outputs of a new generator, that the detectors were not trained on? We begin by collecting generation data from a wide range of LLMs, and train neural detectors on data from each generator and test its performance on held-out generators. While none of the detectors can generalize to all generators, we observe a consistent and interesting pattern that the detectors trained on data from a medium-size LLM can zero-shot generalize to the larger version. As a concrete application, we demonstrate that robust detectors can be built on an ensemble of training data from medium-sized models.},
   year={2023},
   selected={true}
 }
@@ -66,6 +82,9 @@
   author={Pu, Xiao and Gao, Mingqi and Wan, Xiaojun},
   journal={arXiv preprint arXiv:2309.09558},
   year={2023},
+  paper={https://arxiv.org/pdf/2309.09558},
+  preview={summ_is.png},
+  abstract={How well can large language models (LLMs) generate summaries? We develop new datasets and conduct human evaluation experiments to evaluate the zero-shot generation capability of LLMs across five distinct summarization tasks. Our findings indicate a clear preference among human evaluators for LLM-generated summaries over human-written summaries and summaries generated by fine-tuned models. Specifically, LLM-generated summaries exhibit better factual consistency and fewer instances of extrinsic hallucinations. Due to the satisfactory performance of LLMs in summarization tasks (even surpassing the benchmark of reference summaries), we believe that most conventional works in the field of text summarization are no longer necessary in the era of LLMs. However, we recognize that there are still some directions worth exploring, such as the creation of novel datasets with higher quality and more reliable evaluation methods.}
 }
 
 @article{einstein1905movement,

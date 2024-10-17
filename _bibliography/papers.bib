@@ -23,7 +23,7 @@
   journal={Findings of EMNLP},
   year={2024},
   paper={https://openreview.net/pdf?id=n3hzHBpiGq},
-  preview={},
+  preview={style-compress.png},
   abstract={Prompt compression condenses contexts while maintaining their informativeness for different usage scenarios. It not only shortens the inference time and reduces computational costs during the usage of large language models, but also lowers expenses when using closed-source models. In a preliminary study, we discover that when instructing language models to compress prompts, different compression styles (e.g., extractive or abstractive) impact performance of compressed prompts on downstream tasks. Building on this insight, we propose Style-Compress, a lightweight framework that adapts a smaller language model to compress prompts for a larger model on a new task without additional training. Our approach iteratively generates and selects effective compressed prompts as task-specific demonstrations through style variation and in-context learning, enabling smaller models to act as efficient compressors with task-specific examples. Style-Compress outperforms two baseline compression models in four tasks: original prompt reconstruction, text summarization, multi-hop QA, and CoT reasoning. In addition, with only 10 samples and 100 queries for adaptation, prompts compressed by Style-Compress achieve performance on par with or better than original prompts at a compression ratio of 0.25 or 0.5.},
   selected={true}
 }
@@ -34,7 +34,7 @@
   author={Wang, Yichen and Feng, Shangbin and Hou, Abe Bohan and Pu, Xiao and Shen, Chao and Liu, Xiaoming and Tsvetkov, Yulia and He, Tianxing},
   journal={ACL},
   year={2024},
-  preview={stumbling-blocks.png}
+  preview={stumbling-blocks.png},
   paper={https://aclanthology.org/2024.acl-long.160.pdf},
   abstract={The widespread use of large language models (LLMs) is increasing the demand for methods that detect machine-generated text to prevent misuse. The goal of our study is to stress test the detectors' robustness to malicious attacks under realistic scenarios. We comprehensively study the robustness of popular machine-generated text detectors under attacks from diverse categories: editing, paraphrasing, prompting, and co-generating. Our attacks assume limited access to the generator LLMs, and we compare the performance of detectors on different attacks under different budget levels. Our experiments reveal that almost none of the existing detectors remain robust under all the attacks, and all detectors exhibit different loopholes. Averaging all detectors, the performance drops by 35% across all attacks. Further, we investigate the reasons behind these defects and propose initial out-of-the-box patches to improve robustness.},
   poster={},

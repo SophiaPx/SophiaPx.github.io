@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>2111 Henley Hall</p>
-    <p>University of California, Santa Barbara</p>
+    <p>UC Santa Barbara</p>
     <p>Santa Barbara, CA 93106</p>
 
 news: true # includes a list of news items

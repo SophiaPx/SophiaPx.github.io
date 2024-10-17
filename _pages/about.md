@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Xiao" is pronounced like  "sh-yow"
+subtitle: Xiao(晓) is pronounced like  "sh-yow"
 
 profile:
   align: right
@@ -28,8 +28,6 @@ I do research in the field of Natural Language Processing. Specially, I am inter
 - NLP Safety: machine-generated text detection and text watermarks.
 - Prompt Optimization and Compression 
 - Multi-agent Interaction
-
-
  <!--
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

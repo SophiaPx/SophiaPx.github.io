@@ -17,10 +17,16 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Xiao Pu is a first-year CS PhD student at UC Santa Barbara advised by [William Wang](https://sites.cs.ucsb.edu/~william/).
+I am a first-year PhD student at UC Santa Barbara advised by [William Wang](https://sites.cs.ucsb.edu/~william/).
 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `my_pic.jpg` and put it in the `img/` folder.
+
+I obtained my bachelor’s degree from [Peking University](https://english.pku.edu.cn/), where I was advised by [Xiaojun Wan](https://wanxiaojun.github.io/). I also worked with [Tianxing He](https://cloudygoose.github.io/) at Tsinghua University and [Yulia Tsvetkov](https://homes.cs.washington.edu/~yuliats/) at University of Washington.
+
+I do research in the field of Natural Language Processing and Large Language Models. Specially, I am interested in:
+- Evaluation for LLMs: How to design better evaluation methods that evolves with LLM's ability?
+- NLP Safety: detection of machine-generated text and text watermarks.
+- Multi-agent Interaction
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

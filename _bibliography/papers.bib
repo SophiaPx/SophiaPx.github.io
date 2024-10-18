@@ -4,19 +4,6 @@
 @string{aps = {American Physical Society,}}
 
 
-
-
-@article{gao2024llm,
-  abbr={Arxiv},
-  title={LLM-based NLG evaluation: Current Status and Challenges},
-  author={Gao, Mingqi and Hu, Xinyu and Ruan, Jie and Pu, Xiao and Wan, Xiaojun},
-  journal={arXiv preprint arXiv:2402.01383},
-  year={2024},
-  preview={llm-eval-survey.png},
-  paper={https://arxiv.org/pdf/2402.01383},
-  abstract={Evaluating natural language generation (NLG) is a vital but challenging problem in artificial intelligence. Traditional evaluation metrics mainly capturing content (e.g. n-gram) overlap between system outputs and references are far from satisfactory, and large language models (LLMs) such as ChatGPT have demonstrated great potential in NLG evaluation in recent years. Various automatic evaluation methods based on LLMs have been proposed, including metrics derived from LLMs, prompting LLMs, and fine-tuning LLMs with labeled evaluation data. In this survey, we first give a taxonomy of LLM-based NLG evaluation methods, and discuss their pros and cons, respectively. We also discuss human-LLM collaboration for NLG evaluation. Lastly, we discuss several open problems in this area and point out future research directions.}
-}
-
 @article{todo,
   abbr={EMNLP},
   title={Style-Compress: An LLM-Based Prompt Compression Framework Considering Task-Specific Styles},
@@ -27,6 +14,17 @@
   preview={style-compress.png},
   abstract={Prompt compression condenses contexts while maintaining their informativeness for different usage scenarios. It not only shortens the inference time and reduces computational costs during the usage of large language models, but also lowers expenses when using closed-source models. In a preliminary study, we discover that when instructing language models to compress prompts, different compression styles (e.g., extractive or abstractive) impact performance of compressed prompts on downstream tasks. Building on this insight, we propose Style-Compress, a lightweight framework that adapts a smaller language model to compress prompts for a larger model on a new task without additional training. Our approach iteratively generates and selects effective compressed prompts as task-specific demonstrations through style variation and in-context learning, enabling smaller models to act as efficient compressors with task-specific examples. Style-Compress outperforms two baseline compression models in four tasks: original prompt reconstruction, text summarization, multi-hop QA, and CoT reasoning. In addition, with only 10 samples and 100 queries for adaptation, prompts compressed by Style-Compress achieve performance on par with or better than original prompts at a compression ratio of 0.25 or 0.5.},
   selected={true}
+}
+
+@article{gao2024llm,
+  abbr={Arxiv},
+  title={LLM-based NLG evaluation: Current Status and Challenges},
+  author={Gao, Mingqi and Hu, Xinyu and Ruan, Jie and Pu, Xiao and Wan, Xiaojun},
+  journal={arXiv preprint arXiv:2402.01383},
+  year={2024},
+  preview={llm-eval-survey.png},
+  paper={https://arxiv.org/pdf/2402.01383},
+  abstract={Evaluating natural language generation (NLG) is a vital but challenging problem in artificial intelligence. Traditional evaluation metrics mainly capturing content (e.g. n-gram) overlap between system outputs and references are far from satisfactory, and large language models (LLMs) such as ChatGPT have demonstrated great potential in NLG evaluation in recent years. Various automatic evaluation methods based on LLMs have been proposed, including metrics derived from LLMs, prompting LLMs, and fine-tuning LLMs with labeled evaluation data. In this survey, we first give a taxonomy of LLM-based NLG evaluation methods, and discuss their pros and cons, respectively. We also discuss human-LLM collaboration for NLG evaluation. Lastly, we discuss several open problems in this area and point out future research directions.}
 }
 
 @article{wang2024stumbling,

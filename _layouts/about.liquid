@@ -72,7 +72,10 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Pp7r2CVZfS3lp3E3NPi7ktQJRP-qhpQwyGJJ1PkwtrI"></script>
+  <!-- Visitor Map -->
+  <div style="width: 20%; height: auto;">
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Pp7r2CVZfS3lp3E3NPi7ktQJRP-qhpQwyGJJ1PkwtrI"></script>
+  </div>
   {% if site.newsletter.enabled and site.footer_fixed %}
     {% include scripts/newsletter.liquid center=true %}
   {% endif %}

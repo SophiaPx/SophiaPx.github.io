@@ -15,6 +15,14 @@ layout: default
   </header>
 
   <article>
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -64,18 +72,9 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
-    {% if site.newsletter.enabled and site.footer_fixed %}
-      {% include scripts/newsletter.liquid center=true %}
-    {% endif %}
-  </article>
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Pp7r2CVZfS3lp3E3NPi7ktQJRP-qhpQwyGJJ1PkwtrI"></script>
+  {% if site.newsletter.enabled and site.footer_fixed %}
+    {% include scripts/newsletter.liquid center=true %}
+  {% endif %}
+  </article>
 </div>

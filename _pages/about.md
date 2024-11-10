@@ -25,6 +25,6 @@ I obtained my bachelor’s degree from [Peking University](https://english.pku.e
 
 I do research broadly in the field of Natural Language Processing. Specially, I am interested in:
 - Evaluation for LLMs
-- NLP Safety: machine-generated text detection and text watermarks.
-- Prompt Optimization and Compression 
+- NLP Safety: machine-generated text detection, text watermarks and more.
+- Reasoning
 - Multi-agent Interaction

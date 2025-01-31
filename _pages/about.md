@@ -24,7 +24,8 @@ Welcome! I am a first-year CS PhD student at [UC Santa Barbara](https://www.ucsb
 I obtained my bachelor’s degree from [Peking University](https://english.pku.edu.cn/), where I was advised by [Prof. Xiaojun Wan](https://wanxiaojun.github.io/). I also worked with [Prof. Tianxing He](https://cloudygoose.github.io/) at Tsinghua University and [Prof. Yulia Tsvetkov](https://homes.cs.washington.edu/~yuliats/) at University of Washington.
 
 My research interests lie broadly in Natural Language Processing, particularly in:
-- AI Safety: machine-generated text detection ([EMNLP 2023](https://aclanthology.org/2023.findings-emnlp.318/), [ACL 2024](https://aclanthology.org/2024.acl-long.160/)), LLM watermarks ([NAACL 2025](https://arxiv.org/abs/2411.01222)) and VLM safety (ongoing work).
-- NLG Evaluation ([COLING 2024](https://aclanthology.org/2024.lrec-main.821/), [AAAI 2024](https://arxiv.org/abs/2406.07967), [CL 2025](https://arxiv.org/abs/2402.01383))
+- AI Safety: machine-generated text detection ([EMNLP 2023](https://aclanthology.org/2023.findings-emnlp.318/)), LLM watermarks ([NAACL 2025](https://arxiv.org/abs/2411.01222)) and VLM safety (ongoing work).
+- NLG Evaluation ([COLING 2024](https://aclanthology.org/2024.lrec-main.821/))
 - Prompt Compression ([EMNLP 2024](https://aclanthology.org/2024.findings-emnlp.851/))
 - Data Selection for Reasoning (ongoing work)
+_Only (co-)lead-papers are listed._

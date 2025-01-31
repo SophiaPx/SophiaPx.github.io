@@ -30,4 +30,4 @@ My research interests lie broadly in Natural Language Processing, particularly i
 - Data Selection for Reasoning (ongoing work)
 
 <br>
-_(Only [co-]lead-papers are listed.)_
+_(Only [co-]lead-author papers are listed.)_

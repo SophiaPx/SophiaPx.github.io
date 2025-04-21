@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Xiao(晓) is pronounced like  "sh-yow"
+subtitle: Xiao is pronounced like  "sh-yow"
 
 profile:
   align: right

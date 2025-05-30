@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: Xiao is pronounced like  "sh-yow"
 
 profile:
   align: right

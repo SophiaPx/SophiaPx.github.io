@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-We will be giving a tutorial on multimodal generation evaluation at CVPR 2025 in Nashville 🎶🍗
+We will be giving a [tutorial on multimodal generation evaluation](https://lmm-understand.github.io/) at CVPR 2025 in Nashville 🎶🍗

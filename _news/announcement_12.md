@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-Our paper on [overthinking in reasoning models](https://arxiv.org/abs/2504.13367) got accepted to CoLM!
+Our paper on [overthinking in reasoning models](https://arxiv.org/abs/2504.13367) got accepted to COLM!

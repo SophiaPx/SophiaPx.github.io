@@ -24,7 +24,7 @@ I obtained my bachelor’s degree from [Peking University](https://english.pku.e
 My research interests lie broadly in Language and Vision, particularly in:
 - Trustworthy AI: detecting machine-generated text ([EMNLP 2023](https://aclanthology.org/2023.findings-emnlp.318/)), attacking LLM watermarks ([NAACL 2025](https://arxiv.org/abs/2411.01222)), and evaluating oversensitivity in LLMs([EMNLP 2025](#) *coming soon*)
 - Evaluation: extrinsic evaluation for text summaries ([COLING 2024](https://aclanthology.org/2024.lrec-main.821/)).
-- Efficiency: compressing prompts ([EMNLP 2024](https://aclanthology.org/2024.findings-emnlp.851/)), evaluating and mitigating overthinking in reasoning models ([COLM 2025](https://arxiv.org/abs/2504.13367)).
+- Efficiency: prompt compression ([EMNLP 2024](https://aclanthology.org/2024.findings-emnlp.851/)), overthinking in reasoning models ([COLM 2025](https://arxiv.org/abs/2504.13367)).
 
 <br>
 _(Only [co-]lead-author papers are listed.)_

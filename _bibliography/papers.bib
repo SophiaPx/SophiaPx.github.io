@@ -3,6 +3,31 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{pu2025dynamicevaluation,
+  title={Dynamic Evaluation for Oversensitivity in LLMs}, 
+  abbr={EMNLP},
+  author={Sophia Xiao Pu, Sitao Cheng, Xin Eric Wang, William Yang Wang},
+  journal={Findings of EMNLP},
+  year={2025},
+  paper={#}, 
+  preview={oversensitivity.png},
+  abstract={Oversensitivity—where language models defensively reject benign prompts—not only disrupts user interactions but also obscures the boundaries between harmful and harmless content. Existing benchmarks rely on static datasets that degrade over time as models evolve, leading to data contamination and diminished evaluative power. To address this, we develop a framework that dynamically generates model-specific challenging datasets, capturing emerging defensive patterns and aligning with each model’s unique behavior. Building on this approach, we construct OverBench, a benchmark that aggregates these datasets across diverse LLM families, encompassing 450,000 samples from 26 models. OverBench provides a dynamic and evolving perspective on oversensitivity, allowing for continuous monitoring of defensive triggers as models advance, highlighting vulnerabilities that static datasets overlook.},
+  selected={true}
+}
+
+
+@article{pu2025thoughtterminatorbenchmarkingcalibratingmitigating,
+  abbr={COLM},
+  title={THOUGHT TERMINATOR: Benchmarking, Calibrating, and Mitigating Overthinking in Reasoning Models}, 
+  author={Sophia Xiao Pu* and Michael Saxon* and Wenyue Hua and William Yang Wang},
+  journal={COLM},
+  year={2025},
+  paper={https://arxiv.org/abs/2504.13367}, 
+  preview={thought-terminator.png},
+  abstract={Reasoning models have demonstrated impressive performance on difficult tasks that traditional language models struggle at. However, many are plagued with the problem of overthinking--generating large amounts of unnecessary tokens which don't improve accuracy on a question. We introduce approximate measures of problem-level difficulty and demonstrate that a clear relationship between problem difficulty and optimal token spend exists, and evaluate how well calibrated a variety of reasoning models are in terms of efficiently allocating the optimal token count. We find that in general, reasoning models are poorly calibrated, particularly on easy problems. To evaluate calibration on easy questions we introduce DUMB500, a dataset of extremely easy math, reasoning, code, and task problems, and jointly evaluate reasoning model on these simple examples and extremely difficult examples from existing frontier benchmarks on the same task domain. Finally, we introduce THOUGHTTERMINATOR, a training-free black box decoding technique that significantly improves reasoning model calibration.},
+  selected={true}
+}
+
 @article{qiu2025llmsvschineseanime,
   title={LLMs vs. Chinese Anime Enthusiasts: A Comparative Study on Emotionally Supportive Role-Playing}, 
   author={Lanlan Qiu and Xiao Pu and Yeqi Feng and Tianxing He},
@@ -12,18 +37,6 @@
   preview={anime.png},
   abstract={Large Language Models (LLMs) have demonstrated impressive capabilities in role-playing conversations and providing emotional support as separate research directions. However, there remains a significant research gap in combining these capabilities to enable emotionally supportive interactions with virtual characters. To address this research gap, we focus on anime characters as a case study because of their well-defined personalities and large fan bases. This choice enables us to effectively evaluate how well LLMs can provide emotional support while maintaining specific character traits. We introduce ChatAnime, the first Emotionally Supportive Role-Playing (ESRP) dataset. We first thoughtfully select 20 top-tier characters from popular anime communities and design 60 emotion-centric real-world scenario questions. Then, we execute a nationwide selection process to identify 40 Chinese anime enthusiasts with profound knowledge of specific characters and extensive experience in role-playing. Next, we systematically collect two rounds of dialogue data from 10 LLMs and these 40 Chinese anime enthusiasts. To evaluate the ESRP performance of LLMs, we design a user experience-oriented evaluation system featuring 9 fine-grained metrics across three dimensions: basic dialogue, role-playing and emotional support, along with an overall metric for response diversity. In total, the dataset comprises 2,400 human-written and 24,000 LLM-generated answers, supported by over 132,000 human annotations. Experimental results show that top-performing LLMs surpass human fans in role-playing and emotional support, while humans still lead in response diversity. We hope this work can provide valuable resources and insights for future research on optimizing LLMs in ESRP.},
   selected={false}
-}
-
-@article{pu2025thoughtterminatorbenchmarkingcalibratingmitigating,
-  abbr={COLM},
-  title={THOUGHT TERMINATOR: Benchmarking, Calibrating, and Mitigating Overthinking in Reasoning Models}, 
-  author={Xiao Pu* and Michael Saxon* and Wenyue Hua and William Yang Wang},
-  journal={COLM},
-  year={2025},
-  paper={https://arxiv.org/abs/2504.13367}, 
-  preview={thought-terminator.png},
-  abstract={Reasoning models have demonstrated impressive performance on difficult tasks that traditional language models struggle at. However, many are plagued with the problem of overthinking--generating large amounts of unnecessary tokens which don't improve accuracy on a question. We introduce approximate measures of problem-level difficulty and demonstrate that a clear relationship between problem difficulty and optimal token spend exists, and evaluate how well calibrated a variety of reasoning models are in terms of efficiently allocating the optimal token count. We find that in general, reasoning models are poorly calibrated, particularly on easy problems. To evaluate calibration on easy questions we introduce DUMB500, a dataset of extremely easy math, reasoning, code, and task problems, and jointly evaluate reasoning model on these simple examples and extremely difficult examples from existing frontier benchmarks on the same task domain. Finally, we introduce THOUGHTTERMINATOR, a training-free black box decoding technique that significantly improves reasoning model calibration.},
-  selected={true}
 }
 
 @article{huang2024b4blackboxscrubbingattack,
